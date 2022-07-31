@@ -108,8 +108,8 @@ int main(int argc, char **argv)
 {
 	srand((unsigned long)time(NULL));
 
-	int popsize = 200;
-	int ngens = 30;
+	int popsize = 500;
+	int ngens = 100;
 
 	FILE *fp_in;
 	int ID_num = 0;

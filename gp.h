@@ -282,7 +282,7 @@ public:
 public:
 	GP(FITNESSFUNC fitness_function, int popsize = 500);
 	~GP(void);
-	void go(int maxgens = 50);
+	void go(int maxgens = 500);
 	void print_population(void);
 private:
 	void init(void);
