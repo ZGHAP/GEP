@@ -1,0 +1,1 @@
+(sin (- 1 (- 1 (- (sin x) (* (- (rlog (- 1 (sin x))) x) (* (abs (rlog (abs (sin (- 1 (- 1 x)))))) (- 1 (rlog (rlog 1)))))))))
